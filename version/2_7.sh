@@ -1,6 +1,8 @@
 #!/bin/bash -e
 
-echo "================= Installing Python 2.7.13 ==================="
+echo "================= Installing Python 2.7.12 ==================="
+add-apt-repository -y ppa:fkrull/deadsnakes-python2.7
+apt-get update
 sudo apt-get install -y python2.7 python-dev python-pip python-virtualenv
 
 # Install virtualenv
