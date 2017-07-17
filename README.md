@@ -9,5 +9,6 @@ Shippable CI image for Python on Ubuntu 14.04. Available python versions:
 5. 3.4
 6. 3.5
 7. 3.6
+
 **Services:**
-To check the versions of services please refer this lin https://github.com/u14all 
+To check the versions of services please refer to https://github.com/dry-dock/u14all 
