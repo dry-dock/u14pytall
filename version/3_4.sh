@@ -1,7 +1,9 @@
 #!/bin/bash -e
 
 echo "================= Installing Python 3.4 ==================="
-sudo apt-get install -y python3.4 python3.4-dev
+sudo apt-get install -y \
+  python3.4=3.4.3-1ubuntu1~14.04.5 \
+  python3.4-dev=3.4.3-1ubuntu1~14.04.5
 
 # Install virtualenv
 virtualenv -p python3.4 $HOME/venv/3.4
