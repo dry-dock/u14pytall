@@ -2,8 +2,8 @@
 
 echo "================= Installing Python 3.5 ==================="
 sudo apt-get install -y \
-  python3.5=3.5.3-1+trusty1 \
-  python3.5-dev=3.5.3-1+trusty1
+  python3.5=3.5.4* \
+  python3.5-dev=3.5.4*
 
 # Install virtualenv
 virtualenv -p python3.5 $HOME/venv/3.5
