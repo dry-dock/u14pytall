@@ -10,7 +10,7 @@ sudo apt-get install -y \
 # Install virtualenv
 virtualenv -p python $HOME/venv/3.2
 # Install pip packages
-. $HOME/venv/2.7/bin/activate
+. $HOME/venv/3.2/bin/activate
 pip install pyopenssl ndg-httpsclient pyasn1
 pip install nose mock pytest coverage
 CFLAGS="-O0" pip install lxml
