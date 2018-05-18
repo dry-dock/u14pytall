@@ -9,7 +9,9 @@ sudo apt-get install -y \
 virtualenv -p python3.6 $HOME/venv/3.6
 
 # Install pip packages
-. $HOME/venv/3.6/bin/activate
+. $HOME/venv/2.7/bin/activate
+pip install pyopenssl ndg-httpsclient pyasn1
 pip install nose mock pytest coverage
+CFLAGS="-O0" pip install lxml
 deactivate
 echo "================= Successfully Installed Python 3.6 ==================="
