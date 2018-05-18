@@ -1,7 +1,7 @@
 	#!/bin/bash -e
 
 echo "================= Installing Python 2.5.6 ==================="
-add-apt-repository -y ppa:fkrull/deadsnakes-python2.5
+sudo add-apt-repository ppa:deadsnakes/ppa
 apt-get update
 sudo apt-get install -y \
   python2.5=2.5.6-9+trusty1	 \
