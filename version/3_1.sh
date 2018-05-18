@@ -9,6 +9,12 @@ sudo apt-get install -y \
 
 # Install virtualenv
 virtualenv -p python $HOME/venv/3.1
+# Install pip packages
+. $HOME/venv/3.1/bin/activate
+pip install pyopenssl ndg-httpsclient pyasn1
+pip install nose mock pytest coverage
+CFLAGS="-O0" pip install lxml
+deactivate
 
 
 echo "================= Successfully Installed Python 3.1 ==================="
