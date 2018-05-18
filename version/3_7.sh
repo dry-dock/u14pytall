@@ -10,10 +10,5 @@ sudo apt-get install -y \
 
   # Install virtualenv
 virtualenv -p python3.7 $HOME/venv/3.7
-# Install pip packages
-. $HOME/venv/3.7/bin/activate
-pip install nose mock pytest coverage
-CFLAGS="-O0" pip install lxml
-deactivate
 
 echo "================= Successfully Installed Python 3.7 ==================="
