@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 echo "================= Installing Python 2.4.6 ==================="
-sudo add-apt-repository ppa:deadsnakes/ppa
+sudo add-apt-repository -y ppa:deadsnakes/ppa
 apt-get update
 sudo apt-get install -y \
   python2.4=2.4.6-8+trusty1 \
