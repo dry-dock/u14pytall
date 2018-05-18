@@ -1,7 +1,7 @@
 #!/bin/bash -e
 
 echo "================= Installing Python 2.3.7 ==================="
-add-apt-repository -y ppa:fkrull/deadsnakes-python2.3
+sudo add-apt-repository ppa:deadsnakes/ppa
 apt-get update
 sudo apt-get install -y \
   python2.3=2.3.7-2+trusty1 \
