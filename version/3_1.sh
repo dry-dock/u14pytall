@@ -8,7 +8,7 @@ sudo apt-get install -y \
   python-virtualenv=1.11*
 
 # Install virtualenv
-virtualenv -p python $HOME/venv/3.1
+virtualenv -p python3.1 $HOME/venv/3.1
 # Install pip packages
 . $HOME/venv/3.1/bin/activate
 pip install pyopenssl ndg-httpsclient pyasn1

@@ -10,7 +10,7 @@ sudo apt-get install -y \
   python-virtualenv=1.11*
 
 # Install virtualenv
-virtualenv -p python $HOME/venv/2.5
+virtualenv -p python2.5 $HOME/venv/2.5
 
 # Install pip packages
 . $HOME/venv/2.5/bin/activate
