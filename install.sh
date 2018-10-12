@@ -14,7 +14,7 @@ python -m pip install --upgrade pip
 # Installing virtualenv
 export PYTHONVIRTUALENV=16.0.0
 echo "================= Installing python $PYTHONVIRTUALENV =============="
-pip install -q virtualenv=="$PYTHONVIRTUALENV"
+sudo pip install -q virtualenv=="$PYTHONVIRTUALENV"
 
 #!/bin/bash
 for file in /u14pytall/version/*;
