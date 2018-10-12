@@ -12,11 +12,9 @@ python -m pip install --upgrade pip
 
 
 # Installing virtualenv
-wget -nv https://files.pythonhosted.org/packages/33/bc/fa0b5347139cd9564f0d44ebd2b147ac97c36b2403943dbee8a25fd74012/virtualenv-16.0.0.tar.gz
-tar xvfz virtualenv-16.0.0.tar.gz
-cd virtualenv-16.0.0
-python setup.py install
-cd /
+export PYTHONVIRTUALENV=16.0.0
+echo "================= Installing python $PYTHONVIRTUALENV =============="
+pip install -q virtualenv=="$PYTHONVIRTUALENV"
 
 #!/bin/bash
 for file in /u14pytall/version/*;
