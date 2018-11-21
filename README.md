@@ -8,5 +8,8 @@ Shippable CI image for Python on Ubuntu 14.04. Available python versions:
 3. pypy2 v6.0.0
 4. pypy3 v6.0.0
 
+u14pytall Docker Hub repo: [drydock/u14pytall](https://hub.docker.com/r/drydock/u14pytall/)
+  
 **Services:**
-To check the versions of services please refer this lin https://github.com/dry-dock/u14all
+
+Please refer [u14all](https://github.com/dry-dock/u14all) for a list of supported services
