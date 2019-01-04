@@ -12,7 +12,7 @@ python -m pip install --upgrade pip
 
 
 # Installing virtualenv
-export PYTHONVIRTUALENV=16.1.0
+export PYTHONVIRTUALENV=16.2.0
 echo "================= Installing python $PYTHONVIRTUALENV =============="
 sudo pip install -q virtualenv=="$PYTHONVIRTUALENV"
 
