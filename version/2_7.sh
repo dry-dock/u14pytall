@@ -1,8 +1,8 @@
 
 #!/bin/bash -e
 
-export PYTHON=2.7.14*
-export PYTHON_DEV=2.7.14*
+export PYTHON=2.7.15*
+export PYTHON_DEV=2.7.15*
 
 
 echo "================= Installing python  ==================="
